@@ -1,11 +1,10 @@
+let idadeMotorista = Number(prompt("Digite aqui sua idade."));
+let habilitacao = confirm("Possui Abilitação ?");
 
-let idadeMotorista =Number(prompt("Digite aqui sua idade."));
-let habilitacao =confirm("Possui Abilitação ?");
-
-if(idadeMotorista >=18 && habilitacao) {
-    console.log("Pode derigir")
+if (idadeMotorista >= 18 && habilitacao) {
+  console.log("Pode derigir");
 } else {
-    console.log("Não Pode dirigir");
+  console.log("Não Pode dirigir");
 }
 // 2. Para o mesmo exercício acima insira mais uma variável a
 // condicional, além de saber se o motorista tem 18 anos ou mais,
